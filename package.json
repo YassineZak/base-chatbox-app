@@ -1,7 +1,9 @@
 {
   "name": "chatbox-app",
+  "homepage": "http://chatbox.zakari-yassine.fr",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "firebase": "^5.5.1",
     "prop-types": "^15.6.2",
@@ -21,12 +23,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "standard": {
     "parser": "babel-eslint"
   }
